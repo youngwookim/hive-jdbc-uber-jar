@@ -7,14 +7,14 @@
     <groupId>hive-jdbc-uber</groupId>
     <artifactId>hive-jdbc-uber</artifactId>
     <packaging>jar</packaging>
-    <version>2.3.2.0-2950</version>
+    <version>1.2.1</version>
 
     <properties>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <hive.version>1.2.1.2.3.2.0-2950</hive.version>
-        <hadoop.version>2.7.1.2.3.2.0-2950</hadoop.version>
+        <hive.version>1.2.1</hive.version>
+        <hadoop.version>2.7.1</hadoop.version>
     </properties>
 
     <repositories>
@@ -148,6 +148,9 @@
                                     <include>org.slf4j:slf4j-api</include>
                                     <include>org.slf4j:log4j-over-slf4j</include>
                                     <include>org.slf4j:jcl-over-slf4j</include>
+                                    <include>org.apache.curator:curator-client</include>
+                                    <include>org.apache.curator:curator-framework</include>
+                                    <include>org.apache.zookeeper:zookeeper</include>
                                 </includes>
                             </artifactSet>
                         </configuration>
